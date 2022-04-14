@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Fitness Services </title>
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+   
+
+  <link rel="stylesheet" href="./Fitness Services_files/style.css"></head>
+  <body>
+
+   <nav>
+    <a href="http://127.0.0.1:5500/" style="color: #F9EF23;">Astraeus Gym</a>
+     <ul>
+       <li><a href="http://127.0.0.1:5500/">Home</a></li>
+       <li><a href="http://127.0.0.1:5500/">programs</a></li>
+       <li><a href="http://127.0.0.1:5500/">Contact us</a></li>
+       <li><a href="http://127.0.0.1:5500/">About us</a></li>
+     </ul>
+   </nav>
+
+   <div class="hero-image">
+     <div class="hero-text">
+      <h1 class="text">BE YOUR <span style="color: #F9EF23;">BEST</span></h1>
+      <button class="join">Join Today</button>
+     </div>
+   </div>
+   <div class="grid-container">
+
+    <div class="grid-child ">
+        <h3 style="color: #F9EF23;">ABOUT OUR FIT FAMILY</h3>
+        <p>Astraeus was founded in 2001 by a husband and wife team, Bobby and Dora Graff. Since then, we have expanded to over 115 locations nationwide!</p>
+        <button class="learn">Learn More</button>
+    </div>
+
+    <div class="grid-parent ">
+        <img src="./Fitness Services_files/hayley-kim-design-eot-ka5dM7Q-unsplash.jpg" alt="">
+        <img src="./Fitness Services_files/julia-rekamie-Z72YujnOrlY-unsplash.jpg" alt="" class="img-men"> 
+    </div>
+  
+</div>
+
+<div class="section">
+  <h2 style="color: #F9EF23;" class="h2">WHAT WE OFFER</h2>
+  <p class="p">We're committed to bringing you the best workout experience.</p>
+  <div class="container">
+    
+    <img src="./Fitness Services_files/charles-fair-NbFWvXheTQY-unsplash.jpeg" alt="">
+    <img src="./Fitness Services_files/ave-calvar-opxOfzge2Tg-unsplash.jpeg" alt="">
+    <img src="./Fitness Services_files/anastase-maragos-HyvE5SiKMUs-unsplash.jpeg" alt="">
+
+  </div>
+
+</div>
+
+
+   <script src="./Fitness Services_files/main.js"></script>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
